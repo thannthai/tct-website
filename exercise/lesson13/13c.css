@@ -1,0 +1,62 @@
+div {
+  font-family: Arial;
+}
+
+.container {
+  width: 420px;
+  border: none;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
+  padding: 10px 10px 30px 17px;
+  border-radius: 3px;
+}
+
+.header {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(136, 136, 136);
+  margin-bottom: 20px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  width: 350px;
+}
+
+.profile-picture {
+  padding-right: 10px;
+}
+
+.cat-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.name-time-flexbox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.nickname {
+  font-weight: bold;
+}
+
+.time {
+  color: rgb(136, 136, 136);
+}
+
+.noti-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message {
+  color: rgb(136, 136, 136);
+}

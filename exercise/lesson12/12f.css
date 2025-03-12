@@ -1,0 +1,43 @@
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(156, 85, 211);
+  color: white;
+  height: 50px;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home {
+  width: 140px;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;  
+}
+
+.search-bar {
+  font-family: Arial;
+  font-size: 17px;
+  flex: 1;
+  max-width: 600px;
+  padding-left: 25px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 50px;
+  border: none;
+}
+
+button {
+  margin-left: 50px;
+  font-family: Arial;
+  font-size: 17px;
+  color: white;
+  background-color: rgb(156, 85, 211);
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 8px 15px 8px 15px;
+  cursor: pointer;
+}

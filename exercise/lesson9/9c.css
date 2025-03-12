@@ -1,0 +1,10 @@
+.rating-question {
+    font-family: Arial;
+}
+
+.div {
+    border-width: 1px;
+    border-style: solid;
+    padding: 3px 5px 20px 20px;
+    width: 300px;
+}

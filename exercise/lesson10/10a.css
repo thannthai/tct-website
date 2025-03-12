@@ -1,0 +1,55 @@
+p {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 100px;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+.image {
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.info {
+  display: inline-block;
+  width: 220px;
+  vertical-align: middle;
+}
+
+.name
+{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.animal,
+.popularity  {
+  color: rgb(96, 96, 96);
+}
+
+.animal {
+  margin-bottom: 10px;
+}
+
+.follow-button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button {
+  font-size: 18px;
+  color: white;
+  background-color: rgb(88, 139, 241);
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px 7px 15px;
+}
